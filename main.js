@@ -1,8 +1,7 @@
 //JavaScript code
-alert("hello  world")
-let timeOfDay = prompt("What time of day is it?");
-let username = prompt ("what is your name?");
+let pizzaOrder = prompt("What is you Pizza Orde?");
 
-let msg = 'Hello $(username). Have a great $(timeOfDay)!';
+let msg = 'Your ${size} ${pizzaOrder} pizza will be ready in 20 minutes';
 
 alert(msg);
+let size = cheese;
