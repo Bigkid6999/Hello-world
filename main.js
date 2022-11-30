@@ -1,7 +1,15 @@
 //JavaScript code
-let pizzaOrder = prompt("What is you Pizza Orde?");
+// Add Event listener
+document.getElementById("btn").addEventListener("click", sayGreeting);
 
-let msg = 'Your ${size} ${pizzaOrder} pizza will be ready in 20 minutes';
 
+function sayGreeting() {
+
+let pizzaOrder = +prompt("What is you Pizza Order?");
+let size = +prompt("What size would you like?");
+
+//Procces
+let msg = 'Your  ${pizzaOrder} pizza will be ready in 20 minutes';
+//Output
 alert(msg);
-let size = cheese;
+}
